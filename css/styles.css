@@ -1,0 +1,180 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* --------- Elementos ---------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+}
+
+h2, h3 {
+    font-size: 20px;
+    background-color: #FCEE21;
+}
+
+ol {
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+li {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+label {
+    font-weight: 700;
+    font-size: 26.6;
+    display: block;
+}
+
+form {
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 64px;
+}
+
+input {
+    height: 40px;
+
+}
+
+textarea {
+    height: 160px;
+    margin-bottom: 8px;
+}
+input, textarea {
+    display: block;
+    width: 90%;
+    margin-bottom: 32px;
+}
+
+label span {
+    color: red;
+}
+
+footer h1 {
+    font-size: 33px;
+}
+
+footer {
+    background-color: #FCEE21;
+    margin-top: 40px;
+}
+
+/* ----------- ID ---------- */
+
+#img-nosotras {
+    width: 500px;
+}
+
+#img-servicios {
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 32px;
+}
+
+#title-contacto {
+    font-size: 68px;
+    color: white;
+    background-color: black;
+}
+
+#redes-guapas {
+    color: #808080;
+    font-weight: 700;
+    font-size: 33.3px;
+    display: inline-block;
+}
+
+#servicios {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#contacto {
+    margin-bottom: 100px;
+}
+
+/* ---------- Clases ---------- */
+.coiny {
+    font-family: "Coiny", cursive;
+}
+
+.fondo-amarillo {
+    background-color: #FCEE21;
+}
+
+.size21pt {
+    font-size: 28px;
+}
+
+.size24pt {
+    font-size: 32px;
+}
+
+.size33pt {
+    font-size: 44px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.black {
+    font-weight: 900;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex {
+    display: flex;
+}
+
+.box {
+    display: inline-block;
+    margin-left: 16px;
+    width: 50%;
+    margin: 8px;
+}
+
+.btn {
+    padding-right: 32px;
+    justify-content: space-between;
+}
+
+.btn input {
+    width: auto;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 32px;
+    cursor: pointer;
+    padding-left: 32px;
+    padding-right: 32px;    
+    margin-right: 42px;
+
+}
+
+.p-16 {
+    padding: 16px;
+}
